@@ -6,7 +6,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 import sqlite3
 
-API_TOKEN = '6427330443:AAGVC4SGzyt1X9_yC20ayDPDucxe3R96mb4'
+API_TOKEN = 'TOKEN'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
 dp.middleware.setup(LoggingMiddleware())
